@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav area start  */
+/* .header-bg {
+    background-image: url('../img/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+} */
+
+.header-bg {
+    padding-top: 34px;
+}
+
+.main-logo {
+    padding: 0px 0px;
+}
+
+.navbar-nav li {
+    padding-right: 22px;
+}
+
+.navbar-nav li a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+    color: #FFD335;
+}
+
+.nav-trial-btn {
+    border-radius: 2px;
+    background: #FFD335;
+    margin-left: 40px;
+    border: none;
+}
+
+.nav-trial-btn:hover {
+    background-color: transparent;
+    color: #FFD335;
+    border: 1px solid #FFD335;
+
+}
+
+
+
+.nav-sign {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #FFD335;
+}
+
+.nav-sign:hover {
+    color: #ffffff;
+}
+
+
+
+/* nav area end  */
+
+/* banner area start  */
+
+
+.banner-section {
+    padding: 155px 0px 100px 0px;
+    margin-top: -90px;
+    background-image: url('../img/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-right-img {
+    margin-right: -115px;
+}
+
+.left-top h1 {
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    color: #fff;
+}
+
+.left-top p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFF;
+    padding-top: 20px;
+}
+
+.bottom-trial-btn {
+    display: inline-flex;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 2px;
+    background: #FFD335;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.bottom-trial-btn:hover {
+    background-color: #FFD335;
+    color: #080806;
+}
+
+
+
+.bottom-advisor-btn {
+    display: inline-flex;
+    height: 48px;
+    padding: 10px 18px;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1.5px solid #FFD335;
+    background: transparent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    color: #FFD335;
+}
+
+.bottom-advisor-btn:hover {
+    background-color: #FFD335;
+    border: none;
+}
+
+.left-bottom {
+    padding-top: 15px;
+}
+
+.bottom-trial-btn {
+    margin-right: 9px;
+}
+
+/* banner area end  */
