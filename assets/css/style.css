@@ -129,6 +129,7 @@ body {
 }
 
 .bottom-trial-btn:hover {
+
     background-color: #FFD335;
     color: #080806;
 }
@@ -167,3 +168,141 @@ body {
 }
 
 /* banner area end  */
+
+/* featured area start  */
+
+.feature-heading {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    padding-bottom: 50px;
+}
+
+.featured-section {
+    padding: 100px 0px;
+
+    background: linear-gradient(102deg, #FFF9EF 15.77%, rgba(254, 238, 231, 0.85) 40.45%, rgba(255, 247, 240, 0.78) 63.57%, rgba(255, 228, 220, 0.72) 89.79%);
+}
+
+.featured-items-1 {
+    width: 304px;
+    height: 80px;
+    padding: 24px 30px;
+    background-color: #FFF;
+    box-shadow: 15px 15px 30px 0px rgba(134, 64, 38, 0.07);
+}
+
+.featured-items-2 {
+    width: 197px;
+    height: 80px;
+    padding: 24px 40px;
+    background-color: #FFF;
+    box-shadow: 15px 15px 30px 0px rgba(134, 64, 38, 0.07);
+}
+
+.featured-items-3 {
+    width: 244px;
+    height: 80px;
+    padding: 24px 40px;
+    background-color: #FFF;
+    box-shadow: 15px 15px 30px 0px rgba(134, 64, 38, 0.07);
+}
+
+.featured-items-4 {
+    width: 216px;
+    height: 80px;
+    padding: 24px 40px;
+    background-color: #FFF;
+    box-shadow: 15px 15px 30px 0px rgba(134, 64, 38, 0.07);
+}
+
+.featured-items-5 {
+    width: 216px;
+    height: 80px;
+    padding: 24px 40px;
+    background-color: #FFF;
+    box-shadow: 15px 15px 30px 0px rgba(134, 64, 38, 0.07);
+}
+
+/* featured area end  */
+
+/* action area start  */
+.action {
+    padding: 100px 0px;
+}
+
+.action-mini-head {
+    display: inline;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: rgba(255, 117, 183, 0.15);
+
+}
+
+.action-head {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+}
+
+.lessons h4,
+p {
+    margin-top: 20px;
+
+}
+
+.lessons h4 {
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.lessons p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.weekly,
+.mentor {
+    margin-top: 55px;
+}
+
+.demands-on-roll {
+    margin-right: -55px;
+    margin-left: -50px;
+}
+
+.action-btn {
+    border-radius: 2px;
+    background: var(--Ascent-2, #FFD335);
+
+    display: inline-flex;
+    padding: 14px 25px;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.action-btn a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+
+}
+
+.learn-arrow {
+    padding-left: 20px;
+}
+
+/* action area end  */
