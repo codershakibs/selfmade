@@ -102,3 +102,14 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
 });
+
+
+var swiper = new Swiper(".case-Swiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
