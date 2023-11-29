@@ -91,6 +91,23 @@ var swiper = new Swiper(".testimonial-slide", {
     mousewheel: true,
     keyboard: true,
 
+    breakpoints: {
+        575: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+
+
+
+
+    },
+
+
+
 });
 
 
@@ -101,6 +118,21 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        575: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+
+
+
+
+    },
+
 });
 
 
@@ -111,5 +143,24 @@ var swiper = new Swiper(".case-Swiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        575: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+
+
+
+
+
+    },
+
+
+
 });
 

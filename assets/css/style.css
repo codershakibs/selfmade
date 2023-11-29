@@ -283,7 +283,7 @@ body {
 
 .weekly,
 .mentor {
-    margin-top: 55px;
+    margin-top: 30px;
 }
 
 .demands-on-roll {
@@ -425,6 +425,7 @@ body {
 .ceo-pic img {
 
     transition: transform .4s ease-in;
+    width: 100%;
 }
 
 .ceo-pic:hover img {
@@ -531,6 +532,10 @@ case-card-img .about-us {
 
 }
 
+.f-class {
+    gap: 20px !important;
+}
+
 .free-email::placeholder {
     color: white;
     border: none;
@@ -633,7 +638,7 @@ case-card-img .about-us {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    width: 629px;
+    max-width: 629px;
     margin: auto;
     opacity: 0.9;
     margin-top: 20px;
@@ -661,7 +666,7 @@ case-card-img .about-us {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    width: 629px;
+    max-width: 629px;
     margin: auto;
     opacity: 0.9;
     margin-top: 20px;
@@ -815,42 +820,53 @@ case-card-img .about-us {
     font-weight: 400;
     line-height: 28px;
     opacity: 0.7;
-    width: 374px;
-    margin: auto;
-
+    margin-top: 30px;
 }
 
-
-.self-free {
-    padding: 6px 6px 6px 6px;
-    border-radius: 5px;
-    background-color: #fff;
-
-
-}
-
-
-
-.email-free {
-    color: var(--dark-dark-3, #747476);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.84px;
-    width: 374px;
-    border: none;
-}
-
-.btn-free {
-    padding: 6px 18px;
-    border-radius: 4px;
-    background: var(--Ascent-2, #FFD335);
+.news-btn {
     color: var(--dark-dark-1, #1A1A1C);
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.32px;
+    padding: 6px 18px;
+    border-radius: 4px;
+    background: var(--Ascent-2, #FFD335);
+    border: none;
 }
+
+.letter-wrapper {
+    display: flex;
+    justify-content: start;
+    width: 374px;
+    margin-top: 30px;
+
+}
+
+.newsletter-form {
+    background: #fff !important;
+    display: inline-flex;
+    padding: 6px;
+    border-radius: 5px;
+
+}
+
+.input-search {
+    border: 0;
+    margin-right: 30px;
+
+}
+
+.fixed-btn {
+    padding: 8px 20px;
+    width: 100%;
+
+}
+
+.fixed-btn span {
+    padding-left: 10px;
+}
+
 
 
 
@@ -910,4 +926,42 @@ hr {
 .footer-social .social-link:hover svg * {
     fill: #FFD335;
     transition: all 0.5s ease;
+}
+
+
+
+.letter-wrapper {
+    position: relative;
+
+}
+
+.selfmade-input {
+    width: 100%;
+    color: var(--dark-dark-3, #747476);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    border-radius: 4px;
+    background: var(--dark-white, #FFF);
+    padding: 15px 242px 15px 20px;
+    border: 0;
+    outline: 0;
+}
+
+.self-button {
+    position: absolute;
+    color: var(--dark-dark-1, #1A1A1C);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    padding: 6px 18px;
+    border-radius: 4px;
+    background: var(--Ascent-2, #FFD335);
+    border: 0;
+    left: 70%;
+    top: 11%;
+    right: 1%;
+
 }

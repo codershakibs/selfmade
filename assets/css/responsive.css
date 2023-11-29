@@ -1,20 +1,185 @@
 @media (max-width: 575px) {
-    ...
+    .case-card-img img {
+        width: 100%;
+    }
+
+    .banner-right-img {
+        margin-right: 0;
+    }
+
+
 }
 
 
 @media (max-width: 767px) {
-    ...
+    .offcanvas-body {
+        background-color: #141a36;
+    }
+
+    .offcanvas-header {
+        background-color: #141a36;
+    }
+
+    .free-email {
+        padding: 15px 178px 15px 15px;
+    }
+
+    .case-card-head h3 {
+        font-size: 15px !important;
+    }
 }
 
 
 @media (max-width: 991px) {
-    ...
+    .banner-left-col {
+        padding-top: 25px;
+    }
+
+    .weekly {
+        margin-top: 0;
+    }
+
+    .action-btn {
+        padding: 5px 17px;
+        margin-top: 10px;
+    }
+
+    .mother {
+        margin-top: 20px;
+    }
+
+    .action-head {
+        margin-bottom: 0;
+    }
+
+    .footer-right {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .footer-left-2 {
+        max-width: 58%;
+    }
+
+    .test-cards h4 {
+        font-size: 22px;
+    }
 }
 
 
 @media (max-width: 1199px) {
-    ...
+    .navbar-nav li {
+        padding-right: 10px;
+    }
+
+
+
+    .nav-trial-btn {
+        margin-left: 12px;
+        padding: 6px 10px !important;
+        font-size: 14px;
+    }
+
+    .left-top h1 {
+        font-size: 32px;
+    }
+
+    .left-top p {
+        font-size: 16px;
+    }
+
+    .bottom-trial-btn,
+    .bottom-advisor-btn {
+        font-size: 13px;
+        padding: 12px 10px;
+    }
+
+    .featured-section,
+    .testimonial,
+    .business-section,
+    .newsletter,
+    .ceo,
+    .case-studies,
+    .started,
+    .footer-section {
+        padding: 50px 0px;
+    }
+
+    .feature-heading {
+        padding-bottom: 20px;
+    }
+
+    .feature-heading,
+    .action-head,
+    .testimonial-head,
+    .newsletter-heading,
+    .ceo-header h1,
+    .case-header h1,
+    .started-header h1 {
+        font-size: 35px;
+    }
+
+    .action {
+        padding: 50px 0px;
+    }
+
+    .lessons h4 {
+        font-size: 25px;
+    }
+
+    .footer-right {
+        gap: 35px;
+    }
+
+    .q-links h4 {
+        font-size: 20px;
+    }
+
+    .q-links ul li a {
+        font-size: 16px;
+    }
+
+    .footer-left p {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    .ceo-heading {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .ceo-header p {
+        margin-top: 6px;
+        margin-bottom: 17px;
+    }
+
+    .test-cards {
+        padding: 26px 25px 0px 25px;
+    }
+
+    .test-cards img {
+        margin-top: 8px;
+    }
+
+    .test-cards p {
+        margin-bottom: 0;
+    }
+
+    .quote-icon {
+        padding: 14px;
+        left: 178px;
+        top: -30px;
+    }
+
+    .case-card-head h3 {
+        font-size: 20px;
+    }
 }
 
 

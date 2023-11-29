@@ -36,10 +36,11 @@
     <meta name="google-site-verification" content="">
     <!-- Website title -->
     <title>Home</title>
+
     <link rel="stylesheet" href="assets/css/nioicon.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -53,6 +54,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
@@ -69,13 +71,35 @@
                     <a class="navbar-brand main-logo" href="#">
                         <img src="assets/img/logo.svg" alt="logo" class="img-fluid">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+                    <a class=" d-block d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        <span><svg width="25" height="17" viewBox="0 0 25 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.35718 1.21429C4.35718 0.892237 4.48511 0.583379 4.71283 0.355656C4.94056 0.127934 5.24941 0 5.57146 0H23.7857C24.1078 0 24.4167 0.127934 24.6444 0.355656C24.8721 0.583379 25 0.892237 25 1.21429C25 1.53633 24.8721 1.84519 24.6444 2.07292C24.4167 2.30064 24.1078 2.42857 23.7857 2.42857H5.57146C5.24941 2.42857 4.94056 2.30064 4.71283 2.07292C4.48511 1.84519 4.35718 1.53633 4.35718 1.21429Z"
+                                    fill="white" />
+                                <path
+                                    d="M9.21436 15.7856C9.21436 15.4635 9.34229 15.1547 9.57001 14.9269C9.79773 14.6992 10.1066 14.5713 10.4286 14.5713H23.7858C24.1078 14.5713 24.4167 14.6992 24.6444 14.9269C24.8721 15.1547 25.0001 15.4635 25.0001 15.7856C25.0001 16.1076 24.8721 16.4165 24.6444 16.6442C24.4167 16.8719 24.1078 16.9999 23.7858 16.9999H10.4286C10.1066 16.9999 9.79773 16.8719 9.57001 16.6442C9.34229 16.4165 9.21436 16.1076 9.21436 15.7856Z"
+                                    fill="white" />
+                                <path
+                                    d="M1.92864 7.28613C1.60659 7.28613 1.29773 7.41407 1.07001 7.64179C0.842289 7.86951 0.714355 8.17837 0.714355 8.50042C0.714355 8.82247 0.842289 9.13133 1.07001 9.35905C1.29773 9.58677 1.60659 9.7147 1.92864 9.7147H23.7858C24.1078 9.7147 24.4167 9.58677 24.6444 9.35905C24.8721 9.13133 25.0001 8.82247 25.0001 8.50042C25.0001 8.17837 24.8721 7.86951 24.6444 7.64179C24.4167 7.41407 24.1078 7.28613 23.7858 7.28613H1.92864Z"
+                                    fill="white" />
+                            </svg>
+                        </span>
+                    </a>
+
+
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </button> -->
+
+
+
                     <!-- ------- -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse d-none d-xl-block" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#">Features</a>
@@ -116,9 +140,51 @@
         <!--/ header -->
     </section>
 
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="assets/img/logo.svg" alt="logo"
+                    class="img-fluid"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Free Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">FAQ</a>
+                    </li>
+
+
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link nav-sign" aria-current="page" href="#">Sign in</a>
+                    </li>
+                    <a class="btn btn-info px-4 nav-trial-btn" href="#">Start your free trial</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="banner-section overflow-hidden">
         <div class="container">
-            <div class="row">
+            <div class="row flex-column-reverse flex-lg-row">
                 <div class="banner-left-col col-lg-6 d-flex flex-column justify-content-center ">
                     <div class="left-top">
                         <h1>Make your dream business a money-making reality</h1>
@@ -173,57 +239,85 @@
             <h5 class="action-mini-head">Features</h5>
             <h3 class="action-head">Get unstuck and take action</h3>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="lessons text-start">
-                        <img src="assets/img/demand-1.png" alt="">
-                        <h4>On-demand lessons</h4>
-                        <p>Guided step-by-step curriculum to teach you how to do things right on your own. Learn on your
-                            own time, in your own pace</p>
+                <div class="col-lg-4 order-md-2 order-sm-2 order-lg-1">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-12">
+                            <div class="lessons text-start">
+                                <img src="assets/img/demand-1.png" alt="">
+                                <h4>On-demand lessons</h4>
+                                <p>Guided step-by-step curriculum to teach you how to do things right on your own. Learn
+                                    on your
+                                    own time, in your own pace</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-12">
+                            <div class="lessons text-start weekly">
+                                <img src="assets/img/demand-2.png" alt="">
+                                <h4>Weekly coaching</h4>
+                                <p>Facilitated by a professional business coach, you'll meet live with women in your
+                                    business
+                                    stage each week to connect and grow together</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-12">
+                            <div class="lessons text-start  mentor">
+                                <img src=" assets/img/demand-3.png" alt="">
+                                <h4>1:1 Mentorship</h4>
+                                <p>1:1 live Q&A session with a Selfmade subject-matter expert to minimize confusion and
+                                    inaction, and get professional advice</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="lessons text-start weekly">
-                        <img src="assets/img/demand-2.png" alt="">
-                        <h4>Weekly coaching</h4>
-                        <p>Facilitated by a professional business coach, you'll meet live with women in your business
-                            stage each week to connect and grow together</p>
-                    </div>
-                    <div class="lessons text-start  mentor">
-                        <img src="assets/img/demand-3.png" alt="">
-                        <h4>1:1 Mentorship</h4>
-                        <p>1:1 live Q&A session with a Selfmade subject-matter expert to minimize confusion and
-                            inaction, and get professional advice</p>
-                    </div>
+
+
+
 
 
 
 
 
                 </div>
-                <div class="col-lg-4 pt-5">
+                <div class="col-lg-4 pt-5 col-md-0 order-lg-2 order-md-1 order-sm-1">
                     <div class="demands-on-roll">
                         <img class="img-fluid" src="assets/img/on-demans.png" alt="">
                     </div>
 
 
                 </div>
-                <div class="col-lg-4">
-                    <div class="lessons text-start">
-                        <img src="assets/img/cpmmo-1.png" alt="">
-                        <h4>Community</h4>
-                        <p>H ook up with a like-minded community continuing founders & companies, and empower each other
-                            in times of success and failure</p>
+
+                <div class="col-lg-4 order-3">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-12">
+                            <div class="lessons text-start">
+                                <img src="assets/img/cpmmo-1.png" alt="">
+                                <h4>Community</h4>
+                                <p>H ook up with a like-minded community continuing founders & companies, and empower
+                                    each other
+                                    in times of success and failure</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-12">
+                            <div class="lessons text-start weekly">
+                                <img class="" src="assets/img/cpmmo-2.png" alt="">
+                                <h4>Funding</h4>
+                                <p>From setting your mindset to defining your idea to pitching and fundraising, we equip
+                                    you
+                                    with all the resources you need to make your business a success</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-12">
+                            <div class="lessons text-start mentor">
+                                <img src="assets/img/cpmmo-3.png" alt="">
+                                <h4>Fireside chats</h4>
+                                <p>Have intimate interviews and network with some of the most successful female
+                                    entrepreneurs to
+                                    keep propelling yourself forward</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="lessons text-start weekly">
-                        <img class="" src="assets/img/cpmmo-2.png" alt="">
-                        <h4>Funding</h4>
-                        <p>From setting your mindset to defining your idea to pitching and fundraising, we equip you
-                            with all the resources you need to make your business a success</p>
-                    </div>
-                    <div class="lessons text-start mentor">
-                        <img src="assets/img/cpmmo-3.png" alt="">
-                        <h4>Fireside chats</h4>
-                        <p>Have intimate interviews and network with some of the most successful female entrepreneurs to
-                            keep propelling yourself forward</p>
-                    </div>
+
+
+
                 </div>
             </div>
             <div class="action-btn">
@@ -367,7 +461,7 @@
                     <img class="img-fluid w-100" src="assets/img/business-right-col.png" alt="">
 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mother">
                     <h5 class="about-us">About Us</h5>
                     <h2 class="bestie">Your Business Bestie</h2>
                     <p class="about-details">Selfmade is a membership geared at giving women the tools, resources,
@@ -409,7 +503,7 @@
                 the latest update
             </h1>
 
-            <label for="" class="d-flex gap-5 justify-content-center align-items-center">
+            <label for="" class="f-class d-flex gap-5 justify-content-center align-items-center">
                 <input class="free-email" type="text" placeholder="Enter Your Email" name="email-address" id="">
                 <button class="newsletter-btn">Sign Up <span class="newsletter-svg"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -599,7 +693,7 @@
                     videos to watch.</p>
             </div>
 
-            <div class="swiper case-Swiper">
+            <div class="swiper case-Swiper mt-3">
                 <div class="swiper-wrapper gap-1 ">
                     <div class="swiper-slide">
                         <div class="case-card">
@@ -614,16 +708,16 @@
                                 </div>
                                 <p>Homemade ice cream mixes
                                 </p>
-                                <div class="case-button text-center">
-                                    <a class="text-decoration-none text-black" href="">Learn more <svg width="21"
+                                <button type="button" class="fixed-btn btn btn-warning">Learn More<span><svg width="21"
                                             height="20" viewBox="0 0 21 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M15.0117 8.82164L11.4342 5.24414L10.2559 6.42247L13.0001 9.16664H4.66675V10.8333H13.0001L10.2559 13.5775L11.4342 14.7558L15.0117 11.1783C15.3242 10.8658 15.4997 10.4419 15.4997 9.99997C15.4997 9.55803 15.3242 9.13419 15.0117 8.82164Z"
                                                 fill="#1A1A1C" />
                                         </svg>
-                                    </a>
-                                </div>
+                                    </span></button>
+
+
                             </div>
 
                         </div>
@@ -641,16 +735,16 @@
                                 </div>
                                 <p>Homemade ice cream mixes
                                 </p>
-                                <div class="case-button text-center">
-                                    <a class="text-decoration-none text-black" href="">Learn more <svg width="21"
+                                <button type="button" class="fixed-btn btn btn-warning">Learn More<span><svg width="21"
                                             height="20" viewBox="0 0 21 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M15.0117 8.82164L11.4342 5.24414L10.2559 6.42247L13.0001 9.16664H4.66675V10.8333H13.0001L10.2559 13.5775L11.4342 14.7558L15.0117 11.1783C15.3242 10.8658 15.4997 10.4419 15.4997 9.99997C15.4997 9.55803 15.3242 9.13419 15.0117 8.82164Z"
                                                 fill="#1A1A1C" />
                                         </svg>
-                                    </a>
-                                </div>
+                                    </span></button>
+
+
                             </div>
 
                         </div>
@@ -668,16 +762,16 @@
                                 </div>
                                 <p>Homemade ice cream mixes
                                 </p>
-                                <div class="case-button text-center">
-                                    <a class="text-decoration-none text-black" href="">Learn more <svg width="21"
+                                <button type="button" class="fixed-btn btn btn-warning">Learn More<span><svg width="21"
                                             height="20" viewBox="0 0 21 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M15.0117 8.82164L11.4342 5.24414L10.2559 6.42247L13.0001 9.16664H4.66675V10.8333H13.0001L10.2559 13.5775L11.4342 14.7558L15.0117 11.1783C15.3242 10.8658 15.4997 10.4419 15.4997 9.99997C15.4997 9.55803 15.3242 9.13419 15.0117 8.82164Z"
                                                 fill="#1A1A1C" />
                                         </svg>
-                                    </a>
-                                </div>
+                                    </span></button>
+
+
                             </div>
 
                         </div>
@@ -695,16 +789,16 @@
                                 </div>
                                 <p>Homemade ice cream mixes
                                 </p>
-                                <div class="case-button text-center">
-                                    <a class="text-decoration-none text-black" href="">Learn more <svg width="21"
+                                <button type="button" class="fixed-btn btn btn-warning">Learn More<span><svg width="21"
                                             height="20" viewBox="0 0 21 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M15.0117 8.82164L11.4342 5.24414L10.2559 6.42247L13.0001 9.16664H4.66675V10.8333H13.0001L10.2559 13.5775L11.4342 14.7558L15.0117 11.1783C15.3242 10.8658 15.4997 10.4419 15.4997 9.99997C15.4997 9.55803 15.3242 9.13419 15.0117 8.82164Z"
                                                 fill="#1A1A1C" />
                                         </svg>
-                                    </a>
-                                </div>
+                                    </span></button>
+
+
                             </div>
 
                         </div>
@@ -722,16 +816,16 @@
                                 </div>
                                 <p>Homemade ice cream mixes
                                 </p>
-                                <div class="case-button text-center">
-                                    <a class="text-decoration-none text-black" href="">Learn more <svg width="21"
+                                <button type="button" class="fixed-btn btn btn-warning">Learn More<span><svg width="21"
                                             height="20" viewBox="0 0 21 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M15.0117 8.82164L11.4342 5.24414L10.2559 6.42247L13.0001 9.16664H4.66675V10.8333H13.0001L10.2559 13.5775L11.4342 14.7558L15.0117 11.1783C15.3242 10.8658 15.4997 10.4419 15.4997 9.99997C15.4997 9.55803 15.3242 9.13419 15.0117 8.82164Z"
                                                 fill="#1A1A1C" />
                                         </svg>
-                                    </a>
-                                </div>
+                                    </span></button>
+
+
                             </div>
 
                         </div>
@@ -749,20 +843,22 @@
                                 </div>
                                 <p>Homemade ice cream mixes
                                 </p>
-                                <div class="case-button text-center">
-                                    <a class="text-decoration-none text-black" href="">Learn more <svg width="21"
+                                <button type="button" class="fixed-btn btn btn-warning">Learn More<span><svg width="21"
                                             height="20" viewBox="0 0 21 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M15.0117 8.82164L11.4342 5.24414L10.2559 6.42247L13.0001 9.16664H4.66675V10.8333H13.0001L10.2559 13.5775L11.4342 14.7558L15.0117 11.1783C15.3242 10.8658 15.4997 10.4419 15.4997 9.99997C15.4997 9.55803 15.3242 9.13419 15.0117 8.82164Z"
                                                 fill="#1A1A1C" />
                                         </svg>
-                                    </a>
-                                </div>
+                                    </span></button>
+
+
                             </div>
 
                         </div>
                     </div>
+
+
 
 
 
@@ -833,42 +929,24 @@
                 <img src="assets/img/selfmade.svg" alt="">
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="footer-left d-flex flex-column align-items-center text-center">
-                        <div class="text-cent">
+                <div class="col-lg-4 footer-left-2">
+                    <div class="footer-left d-flex flex-column ">
+                        <div class="">
                             <h4>Weekly Newsletter</h4>
                             <p>See for yourself what we do & how
                                 we empower women business owners
                                 throughout their entire journey!</p>
                         </div>
-                        <div class="selfmade-newsletter">
-                            <form class="self-free d-inline-flex" action="">
-                                <input class="email-free" type="text" name="emailAddress"
-                                    placeholder="enter email address">
-                                <button class="btn-free">sign Up</button>
-                            </form>
 
-
-
+                        <div class="letter-wrapper">
+                            <input class="selfmade-input" type="text" name="email-address"
+                                placeholder="Enter Your email">
+                            <button class="self-button">Sign Up</button>
                         </div>
-
-
-
-
-                        <!-- <div class="box pt-5">
-                            <form class="" action="#">
-                                <label class="form-box bg-white d-inline-flex w-100" for="">
-                                    <input class=" free-emails w-100" type=" text" name="emailAddress"
-                                        placeholder="Enter Your Email" id="">
-                                    <button class="box-button" type="submit">Sign Up</button>
-                                </label>
-                            </form>
-                        </div> -->
-
                     </div>
                 </div>
                 <div class="col-lg-8 col-right">
-                    <div class="footer-right d-flex">
+                    <div class="footer-right d-flex justify-content-between">
                         <div class="q-links">
                             <h4 class="text-white pb-3">Quick links</h4>
                             <ul class="list-unstyled text-white">
