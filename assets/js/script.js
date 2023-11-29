@@ -96,8 +96,13 @@ var swiper = new Swiper(".testimonial-slide", {
             slidesPerView: 2,
             spaceBetween: 30,
         },
+
         300: {
             slidesPerView: 1,
+            spaceBetween: 30,
+        },
+        1200: {
+            slidesPerView: 3,
             spaceBetween: 30,
         },
 
@@ -127,6 +132,10 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 30,
         },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
 
 
 
@@ -144,6 +153,11 @@ var swiper = new Swiper(".case-Swiper", {
         clickable: true,
     },
     breakpoints: {
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
         575: {
             slidesPerView: 2,
             spaceBetween: 30,
